@@ -1,9 +1,11 @@
 # Day 1 — Sign-Off
 
-**Asker:** [Your partner's name — they write this after reading YOUR explainer]
+**Asker:** [Partner's name]
 
-**Gap closure status:** <!-- closed / partially closed / not closed -->
+**Gap closure status:** Not received
 
 **What I understand now that I didn't before:**
 
-[Your partner fills this in after reading the explainer YOU wrote for THEIR question. This is about the gap THEY had, not the gap you had. Example: "I now understand that the decode phase scales linearly with output length because each token requires a separate memory-bound forward pass. The 3.2× speedup in my ablation results is explained by the LoRA adapter generating ~3× fewer output tokens, not by any architectural optimization. This changes how I'll explain the Inference Speed chart — I'll emphasize output length reduction as the mechanism, not 'LoRA is faster.'"]
+[Partner sign-off not received. My partner became unresponsive after the morning call and did not provide feedback on the explainer I wrote for their question about fine-tuning speedups and the prefill/decode mechanism.
+
+Without their sign-off, I cannot confirm whether the explainer I wrote successfully closed their knowledge gap or if revisions were needed. I completed the explainer to the best of my ability based on the morning call discussion, citing canonical sources (LoRA paper, SARATHI paper) and providing a hands-on demonstration (demo_decode_latency.py), but was unable to iterate based on their feedback as the protocol requires.]

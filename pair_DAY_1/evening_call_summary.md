@@ -2,10 +2,18 @@
 
 **Partners:** [Your name] + [Partner's name]
 
-**Date/Time:** [Fill in after evening call]
+**Date/Time:** [Evening call did not occur]
 
 **Summary:**
 
-[After your evening call, record the feedback your partner gave on the explainer you wrote for them. Example: "My partner noted that the prefill/decode explanation was clear, but wanted more explicit connection to why LoRA specifically doesn't add overhead. I added a paragraph in the 'Adjacent Concepts' section explaining that LoRA matrices merge into frozen weights at inference time (W' = W + BA), so there's no architectural overhead. They confirmed this addressed the gap."]
+The evening call did not take place. After the morning call, I completed my deliverables (explainer.md, thread.md, sources.md) for my partner's question and submitted them by the afternoon deadline. I attempted to reach my partner via Slack multiple times to schedule the evening call for feedback and revision, but received no response.
 
-**Confirmed by:** [Partner's name/sign]
+Without the evening call, I was unable to:
+- Receive feedback on the explainer I wrote for my partner
+- Revise the explainer based on their input
+- Obtain their sign-off on whether my explainer closed their gap
+- Receive the explainer my partner was supposed to write for my question
+
+I completed all deliverables within my control and made good-faith efforts to coordinate the collaborative portions of the assignment.
+
+**Confirmed by:** [Unable to obtain partner confirmation due to non-response]
