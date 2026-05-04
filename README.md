@@ -24,6 +24,7 @@ Each folder contains: `question.md`, `morning_call_summary.md`, `explainer.md`, 
 
 ### Blog Posts
 1.https://medium.com/@mamaruyirga1394/why-fine-tuned-models-generate-faster-the-decode-phase-mechanism-behind-your-3-2-speedup-9590a549c3d5
+
 2. <!-- Day 2 blog URL -->
 3. <!-- Day 3 blog URL -->
 4. <!-- Day 4 blog URL -->
