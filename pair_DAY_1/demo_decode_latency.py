@@ -58,11 +58,11 @@ def main():
     print("=" * 70)
     print("Real Inference Profiling: Prefill vs Decode Phase")
     print("=" * 70)
-    print("\nLoading model (GPT-2 small for demonstration)...")
+    print("\nLoading model (DistilGPT-2 for fast demonstration)...")
     
-    # Use small model for fast demonstration
-    model = AutoModelForCausalLM.from_pretrained("gpt2")
-    tokenizer = AutoTokenizer.from_pretrained("gpt2")
+    # Use distilgpt2 - much smaller and faster to download (82MB vs 548MB)
+    model = AutoModelForCausalLM.from_pretrained("distilgpt2")
+    tokenizer = AutoTokenizer.from_pretrained("distilgpt2")
     model.eval()
     
     # Use CPU for reproducibility (GPU would be faster but requires CUDA)

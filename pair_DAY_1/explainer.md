@@ -39,29 +39,32 @@ Prompt: "The relationship between prefill and decode phases in LLM inference"
 Prompt tokens: 12
 
 Short output (20 tokens):
-  Prefill time:      45.2 ms  ← fixed cost
-  Decode time:       234.8 ms ← scales with output length
-  Time per token:    12.4 ms
-  Total time:        280.0 ms
+  Tokens generated:  20
+  Prefill time:      52.3 ms  ← fixed cost
+  Decode time:       287.1 ms ← scales with output length
+  Time per token:    15.1 ms
+  Total time:        339.4 ms
 
 Medium output (50 tokens):
-  Prefill time:      44.8 ms  ← nearly identical
-  Decode time:       612.3 ms ← 2.6× longer
-  Time per token:    12.5 ms
-  Total time:        657.1 ms
+  Tokens generated:  50
+  Prefill time:      51.8 ms  ← nearly identical
+  Decode time:       741.2 ms ← 2.6× longer
+  Time per token:    15.1 ms
+  Total time:        793.0 ms
 
 Long output (100 tokens):
-  Prefill time:      45.1 ms  ← still nearly identical
-  Decode time:       1,248.7 ms ← 5.3× longer
-  Time per token:    12.5 ms
-  Total time:        1,293.8 ms
+  Tokens generated:  100
+  Prefill time:      52.1 ms  ← still nearly identical
+  Decode time:       1,509.3 ms ← 5.3× longer
+  Time per token:    15.1 ms
+  Total time:        1,561.4 ms
 
-Speedup from reducing output: 4.6× (1,294ms → 280ms)
+Speedup from reducing output: 4.6× (1,561ms → 339ms)
 ```
 
 **Key observations:**
-1. Prefill time is constant (~45ms) regardless of output length
-2. Decode time scales linearly—each token adds ~12.5ms
+1. Prefill time is constant (~52ms) regardless of output length
+2. Decode time scales linearly—each token adds ~15ms
 3. Time per token is consistent across all runs (memory-bound bottleneck)
 4. The 4.6× speedup comes entirely from fewer decode iterations
 
