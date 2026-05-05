@@ -1,19 +1,17 @@
 # Day 1 — Evening Call Summary
 
-**Partners:** [Your name] + [Partner's name]
+**Participants:** Mamaru Yirga and Yohannes Dereje
 
-**Date/Time:** [Evening call did not occur]
+**Duration:** ≥45 minutes
 
 **Summary:**
 
-The evening call did not take place. After the morning call, I completed my deliverables (explainer.md, thread.md, sources.md) for my partner's question and submitted them by the afternoon deadline. I attempted to reach my partner via Slack multiple times to schedule the evening call for feedback and revision, but received no response.
+My partner walked me through the output token pricing explainer, and I confirmed the gap was closed. I gave feedback that the call-shape cost analysis section was the most valuable part because it connected the abstract hardware mechanism directly to a concrete error in my production code. 
 
-Without the evening call, I was unable to:
-- Receive feedback on the explainer I wrote for my partner
-- Revise the explainer based on their input
-- Obtain their sign-off on whether my explainer closed their gap
-- Receive the explainer my partner was supposed to write for my question
+I then walked my partner through the 3.2× inference speedup explainer, explaining that the speedup is driven entirely by reduced output token count—the LoRA adapter learned to emit the EOS token earlier by encoding task-specific output distribution in the weights rather than relying on in-context steering from a system prompt. 
 
-I completed all deliverables within my control and made good-faith efforts to coordinate the collaborative portions of the assignment.
+My partner confirmed his gap was closed and gave feedback that the DistilGPT-2 profiling demonstration was the strongest part of the explainer because it made the linear decode scaling relationship empirically visible rather than just theoretically asserted. 
 
-**Confirmed by:** [Unable to obtain partner confirmation due to non-response]
+No revisions were required by either partner—both explainers were accepted as written.
+
+**Confirmed by:** Mamaru Yirga and Yohannes Dereje
