@@ -1,0 +1,4 @@
+# Add dependencies for your hands-on demonstration here
+# Example:
+# torch>=2.0.0
+# transformers>=4.30.0

@@ -50,4 +50,4 @@ pass^1 is the deployment metric. pass^k is the capability ceiling.
 **Tweet 6:**
 Harness fix: add --n-samples and --temperature flags to run_act4_ablations.py. Run 10 samples per task at temperature=0.8. Compute pass_at_k(n, c, k) per task. Bootstrap over tasks, not samples.
 
-Full explainer + code: [BLOG_URL_HERE]
+Full explainer + code: [\[BLOG_URL_HERE\]](https://medium.com/@mamaruyirga1394/pass%C2%B9-is-a-deployment-metric-pass-k-is-a-capability-ceiling-what-a-0-82-pass-rate-actually-means-bd81bbf0c8d4)

@@ -51,4 +51,4 @@ Over-claim reduction only in condition 4 = confidence gate is the mechanism, not
 **Tweet 6:**
 This directly fixes my method.md claim and lets me refactor agent/composer.py + agent/policy.py with a mechanically defensible intervention.
 
-Full explainer + code + papers: [BLOG_URL_HERE]
+Full explainer + code + papers: [\[BLOG_URL_HERE\]](https://medium.com/@mamaruyirga1394/why-prompts-cant-enforce-confidence-gated-phrasing-the-structural-fix-for-over-claim-reduction-48cb702e18c0)
